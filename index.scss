@@ -9,14 +9,17 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 // Reassign color vars to semantic color scheme
-$brand-primary:             #80bfff;
 
-
-$brand-success:             #5cb85c;
-$brand-info:                #333;
-$brand-warning:             #f0ad4e;
-$brand-danger:              #d9534f;
-$brand-inverse:             #292b2c;
+$theme-colors: (
+  primary:  #80bfff,
+  secondary: #868e96,
+  success: #5cb85c,
+  info: #333,
+  warning: #f0ad4e,
+  danger: #d9534f,
+  light: #f8f9fa,
+  dark: #292b2c
+);
  
 
 // Options
@@ -38,7 +41,7 @@ $enable-print-styles:       true !default;
 
 $body-color: #454545;
 $body-color-inverse: invert($body-color) !default;
-$link-color: #80bfff;
+
 
 
 
@@ -70,4 +73,5 @@ html,body {
 
 }$body-bg: white;
 
-@import 'bootstrap-4.0.0-alpha.6';
+$link-color: #80bfff;
+@import 'bootstrap-4.0.0-beta.1';
