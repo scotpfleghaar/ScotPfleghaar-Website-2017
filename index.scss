@@ -1,5 +1,5 @@
 /*!
- * Gaia theme v4.0.0-alpha.6
+ * Gaia theme v4.0.0-beta.1
  * Homepage: https://pingendo.com
  * Copyright 2014-2017 Pingendo
  * Licensed under MIT
@@ -75,3 +75,7 @@ html,body {
 
 $link-color: #80bfff;
 @import 'bootstrap-4.0.0-beta.1';
+
+.main-section {
+ height: 100vh !important;  
+}

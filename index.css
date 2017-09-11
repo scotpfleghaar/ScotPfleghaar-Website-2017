@@ -1,5 +1,5 @@
 /*!
- * Gaia theme v4.0.0-alpha.6
+ * Gaia theme v4.0.0-beta.1
  * Homepage: https://pingendo.com
  * Copyright 2014-2017 Pingendo
  * Licensed under MIT
@@ -5558,3 +5558,6 @@ a.text-dark:focus, a.text-dark:hover {
 
 .invisible {
   visibility: hidden !important; }
+
+.main-section {
+  height: 100vh !important; }
